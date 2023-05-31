@@ -1,0 +1,452 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLACK	libft/test/Makefile	/^BLACK       = "\\033[0;30m"$/;"	m
+BUFFER_SIZE	libft/test/header/minishell.h	/^#  define BUFFER_SIZE /;"	d
+CC	libft/Makefile	/^CC = cc$/;"	m
+CC	libft/test/Makefile	/^CC          = cc$/;"	m
+CC	libft/test/src/libft/Makefile	/^CC = cc$/;"	m
+CFLAGS	libft/test/Makefile	/^CFLAGS      = -Wall -Wextra -Werror$/;"	m
+CYAN	libft/test/Makefile	/^CYAN        = "\\033[0;36m"$/;"	m
+FLAG	libft/Makefile	/^FLAG = -Wall -Wextra -Werror$/;"	m
+FLAG	libft/test/src/libft/Makefile	/^FLAG = -Wall -Wextra -Werror$/;"	m
+GRAY	libft/test/Makefile	/^GRAY        = "\\033[1;30m"$/;"	m
+GREEN	libft/test/Makefile	/^GREEN       = "\\033[0;32m"$/;"	m
+HEADER	libft/test/Makefile	/^HEADER      = .\/header\/minishell.h$/;"	m
+LIBFT_H	libft/libft.h	/^# define LIBFT_H$/;"	d
+LIBFT_H	libft/test/src/libft/libft.h	/^# define LIBFT_H$/;"	d
+LIBS	libft/test/Makefile	/^LIBS		= -L .\/src\/libft -lft$/;"	m
+MINISHELL_H	libft/test/header/minishell.h	/^# define MINISHELL_H$/;"	d
+NAME	libft/Makefile	/^NAME = libft.a$/;"	m
+NAME	libft/test/Makefile	/^NAME        = minishell$/;"	m
+NAME	libft/test/src/libft/Makefile	/^NAME = libft.a$/;"	m
+OBJ	libft/Makefile	/^OBJ = $(SRCS:.c=.o)$/;"	m
+OBJ	libft/test/Makefile	/^OBJ         = $(SRC:.c=.o)$/;"	m
+OBJ	libft/test/src/libft/Makefile	/^OBJ = $(SRCS:.c=.o)$/;"	m
+OBJ_B	libft/Makefile	/^OBJ_B = $(SRCS_B:.c=.o)$/;"	m
+OBJ_B	libft/test/src/libft/Makefile	/^OBJ_B = $(SRCS_B:.c=.o)$/;"	m
+PURPLE	libft/test/Makefile	/^PURPLE      = "\\033[0;35m"$/;"	m
+RED	libft/test/Makefile	/^RED         = "\\033[0;31m"$/;"	m
+RL_COM	libft/test/Makefile	/^RL_COM		= -I ${shell brew --prefix readline}\/include$/;"	m
+RL_LINK	libft/test/Makefile	/^RL_LINK		= -L ${shell brew --prefix readline}\/lib -lreadline$/;"	m
+RM	libft/test/Makefile	/^RM          = rm -f$/;"	m
+SOURCE	libft/Makefile	/^SOURCE = .\/libft.h$/;"	m
+SOURCE	libft/test/src/libft/Makefile	/^SOURCE = .\/libft.h$/;"	m
+SRC	libft/test/Makefile	/^SRC			= $(wildcard .\/src\/*.c)$/;"	m
+SRCS	libft/Makefile	/^SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c ft_strlen.c ft_memset.c ft_bzero.c ft_memcpy.c ft_memmove.c ft_strlcpy.c ft_strlcat.c ft_toupper.c ft_tolower.c ft_strchr.c ft_strrchr.c ft_strncmp.c ft_memchr.c ft_memcmp.c ft_strnstr.c ft_atoi.c ft_calloc.c ft_strdup.c ft_substr.c ft_strjoin.c ft_strtrim.c ft_split.c ft_itoa.c ft_strmapi.c ft_striteri.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c$/;"	m
+SRCS	libft/test/src/libft/Makefile	/^SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c ft_strlen.c ft_memset.c ft_bzero.c ft_memcpy.c ft_memmove.c ft_strlcpy.c ft_strlcat.c ft_toupper.c ft_tolower.c ft_strchr.c ft_strrchr.c ft_strncmp.c ft_memchr.c ft_memcmp.c ft_strnstr.c ft_atoi.c ft_calloc.c ft_strdup.c ft_substr.c ft_strjoin.c ft_strtrim.c ft_split.c ft_itoa.c ft_strmapi.c ft_striteri.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c$/;"	m
+SRCS_B	libft/Makefile	/^SRCS_B = ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c ft_lstlast_bonus.c ft_lstadd_back_bonus.c ft_lstdelone_bonus.c ft_lstclear_bonus.c ft_lstiter_bonus.c ft_lstmap_bonus.c$/;"	m
+SRCS_B	libft/test/src/libft/Makefile	/^SRCS_B = ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c ft_lstlast_bonus.c ft_lstadd_back_bonus.c ft_lstdelone_bonus.c ft_lstclear_bonus.c ft_lstiter_bonus.c ft_lstmap_bonus.c$/;"	m
+STDERR	libft/test/header/minishell.h	/^# define STDERR /;"	d
+STDIN	libft/test/header/minishell.h	/^# define STDIN /;"	d
+STDOUT	libft/test/header/minishell.h	/^# define STDOUT /;"	d
+WHITE	libft/test/Makefile	/^WHITE       = "\\033[1;37m"$/;"	m
+YELLOW	libft/test/Makefile	/^YELLOW      = "\\033[1;33m"$/;"	m
+actual_change	libft/test/src/pipex_util1.c	/^char	*actual_change(t_lst **head, t_lst **tail, char *tmp)$/;"	f
+actual_change	pipex_util1.c	/^char	*actual_change(t_lst **head, t_lst **tail, char *tmp)$/;"	f
+built_in_init	libft/test/src/utils.c	/^int	built_in_init(t_lst **head, t_lst **tail, char **ep, t_pipex *p)$/;"	f
+built_in_init	utils.c	/^int	built_in_init(t_lst **head, t_lst **tail, char **ep, t_pipex *p)$/;"	f
+builtin	libft/test/header/minishell.h	/^	char		**builtin;$/;"	m	struct:s_pipex
+builtin	libft/test/src/utils1.c	/^void	builtin(t_pipex *p, t_lst **head, t_lst **tail)$/;"	f
+builtin	utils1.c	/^void	builtin(t_pipex *p, t_lst **head, t_lst **tail)$/;"	f
+change_dollars	libft/test/src/pipex_util3.c	/^void	change_dollars(t_lst **head, t_lst **tail, char **lst)$/;"	f
+change_dollars	pipex_util3.c	/^void	change_dollars(t_lst **head, t_lst **tail, char **lst)$/;"	f
+check_cmd_in_list	ft_unset.c	/^void	check_cmd_in_list(t_lst **head, t_lst **tail, char *cmd)$/;"	f
+check_cmd_in_list	libft/test/src/ft_unset.c	/^void	check_cmd_in_list(t_lst **head, t_lst **tail, char *cmd)$/;"	f
+check_newline	ft_echo_2.c	/^int	check_newline(char **cmdline, int *i)$/;"	f
+check_newline	libft/test/src/ft_echo_2.c	/^int	check_newline(char **cmdline, int *i)$/;"	f
+check_newline_2	ft_echo_2.c	/^int	check_newline_2(char **cmdline, int *i, int j)$/;"	f
+check_newline_2	libft/test/src/ft_echo_2.c	/^int	check_newline_2(char **cmdline, int *i, int j)$/;"	f
+check_pipe_cnt	ft_echo.c	/^void	check_pipe_cnt(int pipe_cnt)$/;"	f
+check_pipe_cnt	libft/test/src/ft_echo.c	/^void	check_pipe_cnt(int pipe_cnt)$/;"	f
+check_pipe_syntax	execute_util1.c	/^void	check_pipe_syntax(t_pipex *pipex, char *line, size_t i, int f)$/;"	f
+check_pipe_syntax	libft/test/src/execute_util1.c	/^void	check_pipe_syntax(t_pipex *pipex, char *line, size_t i, int f)$/;"	f
+check_redirect_syntax	cmd_utils2.c	/^void	check_redirect_syntax(t_pipex *p, int i, int j)$/;"	f
+check_redirect_syntax	libft/test/src/cmd_utils2.c	/^void	check_redirect_syntax(t_pipex *p, int i, int j)$/;"	f
+check_semi_colon_back_slash	check_syntax.c	/^void	check_semi_colon_back_slash(t_pipex *pipex, char *line)$/;"	f
+check_semi_colon_back_slash	libft/test/src/check_syntax.c	/^void	check_semi_colon_back_slash(t_pipex *pipex, char *line)$/;"	f
+child_builtin	libft/test/src/utils2.c	/^void	child_builtin(t_pipex *p, t_lst **head, t_lst **tail)$/;"	f
+child_builtin	utils2.c	/^void	child_builtin(t_pipex *p, t_lst **head, t_lst **tail)$/;"	f
+close_pipes	libft/test/src/pipe_utils.c	/^void	close_pipes(t_pipex *p)$/;"	f
+close_pipes	pipe_utils.c	/^void	close_pipes(t_pipex *p)$/;"	f
+cmd	cmd_utils2.c	/^char	*cmd(t_pipex *pipex, char *line, size_t *i)$/;"	f
+cmd	libft/test/header/minishell.h	/^	char	**cmd;$/;"	m	struct:s_a
+cmd	libft/test/header/minishell.h	/^	t_cmd		*cmd;$/;"	m	struct:s_pipex
+cmd	libft/test/src/cmd_utils2.c	/^char	*cmd(t_pipex *pipex, char *line, size_t *i)$/;"	f
+cmd_cnt	cmd_utils2.c	/^size_t	cmd_cnt(t_pipex *pipex, char *line, size_t i, size_t ret)$/;"	f
+cmd_cnt	libft/test/src/cmd_utils2.c	/^size_t	cmd_cnt(t_pipex *pipex, char *line, size_t i, size_t ret)$/;"	f
+cmd_opt	libft/test/header/minishell.h	/^	char	***cmd_opt;$/;"	m	struct:s_a
+cmd_root	cmd_utils1.c	/^char	*cmd_root(t_pipex *pipex, char *cmd)$/;"	f
+cmd_root	libft/test/src/cmd_utils1.c	/^char	*cmd_root(t_pipex *pipex, char *cmd)$/;"	f
+cmd_split	cmd_utils2.c	/^char	**cmd_split(t_pipex *pipex, char *line, int k)$/;"	f
+cmd_split	libft/test/src/cmd_utils2.c	/^char	**cmd_split(t_pipex *pipex, char *line, int k)$/;"	f
+cmdline_init	libft/test/src/utils2.c	/^char	**cmdline_init(t_pipex *p)$/;"	f
+cmdline_init	utils2.c	/^char	**cmdline_init(t_pipex *p)$/;"	f
+collect_child	execute.c	/^void	collect_child(t_pipex *p)$/;"	f
+collect_child	libft/test/src/execute.c	/^void	collect_child(t_pipex *p)$/;"	f
+comment_flag	libft/test/header/minishell.h	/^	int			comment_flag;$/;"	m	struct:s_pipex
+content	libft/libft.h	/^	void			*content;$/;"	m	struct:s_list
+content	libft/test/src/libft/libft.h	/^	void			*content;$/;"	m	struct:s_list
+count_cmd	libft/test/src/utils2.c	/^size_t	count_cmd(char **cmds)$/;"	f
+count_cmd	utils2.c	/^size_t	count_cmd(char **cmds)$/;"	f
+create_pipe	libft/test/src/pipe_utils.c	/^void	create_pipe(t_pipex *pipex)$/;"	f
+create_pipe	pipe_utils.c	/^void	create_pipe(t_pipex *pipex)$/;"	f
+cur	libft/test/header/minishell.h	/^	size_t	cur;$/;"	m	struct:s_b
+cut_pipe	cmd_utils1.c	/^void	cut_pipe(t_pipex *pipex, char *line, size_t point)$/;"	f
+cut_pipe	libft/test/header/minishell.h	/^	char	**cut_pipe;$/;"	m	struct:s_a
+cut_pipe	libft/test/src/cmd_utils1.c	/^void	cut_pipe(t_pipex *pipex, char *line, size_t point)$/;"	f
+discriminate_redirect	cmd_utils.c	/^int	discriminate_redirect(char *line, size_t *i)$/;"	f
+discriminate_redirect	libft/test/src/cmd_utils.c	/^int	discriminate_redirect(char *line, size_t *i)$/;"	f
+dollar_alnum	libft/test/src/pipex_util1.c	/^int	dollar_alnum(int c)$/;"	f
+dollar_alnum	pipex_util1.c	/^int	dollar_alnum(int c)$/;"	f
+dollar_chn	libft/test/src/pipex_util2.c	/^void	dollar_chn(t_lst **head, t_lst **tail, char **lst, int i[])$/;"	f
+dollar_chn	pipex_util2.c	/^void	dollar_chn(t_lst **head, t_lst **tail, char **lst, int i[])$/;"	f
+dollar_mul	libft/test/src/pipex_util2.c	/^void	dollar_mul(char **lst, int i[3])$/;"	f
+dollar_mul	pipex_util2.c	/^void	dollar_mul(char **lst, int i[3])$/;"	f
+double_check	ft_export_3.c	/^int	double_check(t_lst **head, int i, t_lst **tail, char *cmd)$/;"	f
+double_check	libft/test/src/ft_export_3.c	/^int	double_check(t_lst **head, int i, t_lst **tail, char *cmd)$/;"	f
+end_shell	libft/test/src/pipex_util1.c	/^void	end_shell(t_pipex *pipex)$/;"	f
+end_shell	pipex_util1.c	/^void	end_shell(t_pipex *pipex)$/;"	f
+envs	libft/test/header/minishell.h	/^	char			*envs;$/;"	m	struct:s_lst
+ep	libft/test/header/minishell.h	/^	char		**ep;$/;"	m	struct:s_pipex
+ep_path_free_util	execute.c	/^void	ep_path_free_util(t_pipex *p)$/;"	f
+ep_path_free_util	libft/test/src/execute.c	/^void	ep_path_free_util(t_pipex *p)$/;"	f
+err	libft/test/header/minishell.h	/^	int		err;$/;"	m	struct:s_b
+err_file	libft/test/header/minishell.h	/^	int		err_file;$/;"	m	struct:s_file
+err_flag	libft/test/header/minishell.h	/^	int		err_flag[128];$/;"	m	struct:s_b
+err_idx	libft/test/header/minishell.h	/^	int		err_idx[2];$/;"	m	struct:s_b
+err_name	libft/test/header/minishell.h	/^	char	*err_name;$/;"	m	struct:s_b
+execute	execute.c	/^void	execute(t_pipex *p, t_lst **head, t_lst **tail)$/;"	f
+execute	libft/test/src/execute.c	/^void	execute(t_pipex *p, t_lst **head, t_lst **tail)$/;"	f
+execve_cmd	libft/test/header/minishell.h	/^	int			*execve_cmd;$/;"	m	struct:s_pipex
+execve_cmd_init	cmd_utils.c	/^void	execve_cmd_init(t_pipex *p, char *line, int i)$/;"	f
+execve_cmd_init	libft/test/src/cmd_utils.c	/^void	execve_cmd_init(t_pipex *p, char *line, int i)$/;"	f
+execve_cnt	libft/test/header/minishell.h	/^	size_t	execve_cnt;$/;"	m	struct:s_a
+exit_shell	libft/test/src/pipex_util4.c	/^void	exit_shell(t_pipex *pipex, t_lst **node, int i)$/;"	f
+exit_shell	pipex_util4.c	/^void	exit_shell(t_pipex *pipex, t_lst **node, int i)$/;"	f
+f	libft/test/header/minishell.h	/^	size_t		f;$/;"	m	struct:s_pipex
+fds	libft/test/header/minishell.h	/^	int			*fds;$/;"	m	struct:s_pipex
+file_name	cmd_utils.c	/^char	*file_name(t_pipex *pipex, char *line, size_t *i)$/;"	f
+file_name	libft/test/src/cmd_utils.c	/^char	*file_name(t_pipex *pipex, char *line, size_t *i)$/;"	f
+fill_int	libft/ft_itoa.c	/^void	fill_int(char *ret, size_t len, size_t i, int n)$/;"	f
+fill_int	libft/test/src/libft/ft_itoa.c	/^void	fill_int(char *ret, size_t len, size_t i, int n)$/;"	f
+find_env_value	ft_cd_2.c	/^char	*find_env_value(char *key, t_lst **head, t_lst **tail)$/;"	f
+find_env_value	libft/test/src/ft_cd_2.c	/^char	*find_env_value(char *key, t_lst **head, t_lst **tail)$/;"	f
+find_equal	ft_unset.c	/^t_lst	*find_equal(t_lst *cur, char *a, char *cmd)$/;"	f
+find_equal	libft/test/src/ft_unset.c	/^t_lst	*find_equal(t_lst *cur, char *a, char *cmd)$/;"	f
+find_special_middle_for_export	ft_export.c	/^char	*find_special_middle_for_export(char *str, int i[])$/;"	f
+find_special_middle_for_export	libft/test/src/ft_export.c	/^char	*find_special_middle_for_export(char *str, int i[])$/;"	f
+find_special_middle_for_export_2	ft_echo.c	/^void	find_special_middle_for_export_2(char **str, int k[])$/;"	f
+find_special_middle_for_export_2	libft/test/src/ft_echo.c	/^void	find_special_middle_for_export_2(char **str, int k[])$/;"	f
+find_special_middle_for_export_3	ft_echo.c	/^void	find_special_middle_for_export_3(char **str, int k[])$/;"	f
+find_special_middle_for_export_3	libft/test/src/ft_echo.c	/^void	find_special_middle_for_export_3(char **str, int k[])$/;"	f
+find_special_middle_for_unset	ft_unset.c	/^char	*find_special_middle_for_unset(char *str, int pipe_cnt)$/;"	f
+find_special_middle_for_unset	libft/test/src/ft_unset.c	/^char	*find_special_middle_for_unset(char *str, int pipe_cnt)$/;"	f
+for_25	ft_export_2.c	/^void	for_25(int	*i, char **equal_cmd, char *cmd)$/;"	f
+for_25	libft/test/src/ft_export_2.c	/^void	for_25(int	*i, char **equal_cmd, char *cmd)$/;"	f
+for_25_2	ft_export_3.c	/^int	for_25_2(int i, char *cmd, t_lst **head, t_lst **tail)$/;"	f
+for_25_2	libft/test/src/ft_export_3.c	/^int	for_25_2(int i, char *cmd, t_lst **head, t_lst **tail)$/;"	f
+for_25_3	ft_export_3.c	/^int	for_25_3(int i, t_lst **head, t_lst **tail, char *cmd)$/;"	f
+for_25_3	libft/test/src/ft_export_3.c	/^int	for_25_3(int i, t_lst **head, t_lst **tail, char *cmd)$/;"	f
+for_yishipoh	libft/test/src/pipex_util3.c	/^void	for_yishipoh(char **lst, int i[])$/;"	f
+for_yishipoh	pipex_util3.c	/^void	for_yishipoh(char **lst, int i[])$/;"	f
+free_and_dup	ft_export_2.c	/^int	free_and_dup(t_lst *cur, char *cmd, char *equal_cmd)$/;"	f
+free_and_dup	libft/test/src/ft_export_2.c	/^int	free_and_dup(t_lst *cur, char *cmd, char *equal_cmd)$/;"	f
+free_cd_all	ft_cd_2.c	/^void	free_cd_all(char *a, char *b, char *c)$/;"	f
+free_cd_all	libft/test/src/ft_cd_2.c	/^void	free_cd_all(char *a, char *b, char *c)$/;"	f
+free_four	libft/test/src/pipex_util2.c	/^void	free_four(char *tmp, char *front, char *back, char *ret)$/;"	f
+free_four	pipex_util2.c	/^void	free_four(char *tmp, char *front, char *back, char *ret)$/;"	f
+free_three	libft/test/src/pipex_util2.c	/^void	free_three(char *a, char *b, char *c)$/;"	f
+free_three	pipex_util2.c	/^void	free_three(char *a, char *b, char *c)$/;"	f
+free_two	libft/test/src/pipex_util2.c	/^void	free_two(char *a, char *b)$/;"	f
+free_two	pipex_util2.c	/^void	free_two(char *a, char *b)$/;"	f
+free_util	libft/test/src/pipex_util1.c	/^void	free_util(t_pipex *pipex)$/;"	f
+free_util	pipex_util1.c	/^void	free_util(t_pipex *pipex)$/;"	f
+ft_atoi	libft/ft_atoi.c	/^int	ft_atoi(const char *str)$/;"	f
+ft_atoi	libft/test/src/libft/ft_atoi.c	/^int	ft_atoi(const char *str)$/;"	f
+ft_bzero	libft/ft_bzero.c	/^void	ft_bzero(void *s, size_t n)$/;"	f
+ft_bzero	libft/test/src/libft/ft_bzero.c	/^void	ft_bzero(void *s, size_t n)$/;"	f
+ft_calloc	libft/ft_calloc.c	/^void	*ft_calloc(size_t count, size_t size)$/;"	f
+ft_calloc	libft/test/src/libft/ft_calloc.c	/^void	*ft_calloc(size_t count, size_t size)$/;"	f
+ft_cd	ft_cd.c	/^void	ft_cd(t_lst **head, t_lst **tail, char **cmdline, int pipe_cnt)$/;"	f
+ft_cd	libft/test/src/ft_cd.c	/^void	ft_cd(t_lst **head, t_lst **tail, char **cmdline, int pipe_cnt)$/;"	f
+ft_echo	ft_echo.c	/^void	ft_echo(char **cmdline)$/;"	f
+ft_echo	libft/test/src/ft_echo.c	/^void	ft_echo(char **cmdline)$/;"	f
+ft_env	ft_env.c	/^void	ft_env(t_lst *head, t_lst *tail, char **cmdline, int pipe_cnt)$/;"	f
+ft_env	libft/test/src/ft_env.c	/^void	ft_env(t_lst *head, t_lst *tail, char **cmdline, int pipe_cnt)$/;"	f
+ft_execve	execute_util.c	/^void	ft_execve(t_pipex *p, t_lst **head)$/;"	f
+ft_execve	libft/test/src/execute_util.c	/^void	ft_execve(t_pipex *p, t_lst **head)$/;"	f
+ft_execve_util	execute_util.c	/^void	ft_execve_util(t_pipex *p, char *temp)$/;"	f
+ft_execve_util	libft/test/src/execute_util.c	/^void	ft_execve_util(t_pipex *p, char *temp)$/;"	f
+ft_exit	libft/test/src/pipex_util4.c	/^void	ft_exit(t_pipex *p, t_lst **head)$/;"	f
+ft_exit	pipex_util4.c	/^void	ft_exit(t_pipex *p, t_lst **head)$/;"	f
+ft_exit_util	libft/test/src/pipex_util4.c	/^void	ft_exit_util(t_pipex *p, t_lst **head)$/;"	f
+ft_exit_util	pipex_util4.c	/^void	ft_exit_util(t_pipex *p, t_lst **head)$/;"	f
+ft_export	ft_export.c	/^void	ft_export(t_lst **head, t_lst **tail, char **cmdline, int pipe_cnt)$/;"	f
+ft_export	libft/test/src/ft_export.c	/^void	ft_export(t_lst **head, t_lst **tail, char **cmdline, int pipe_cnt)$/;"	f
+ft_freeall	libft/ft_split.c	/^char	**ft_freeall(char **list)$/;"	f
+ft_freeall	libft/test/src/libft/ft_split.c	/^char	**ft_freeall(char **list)$/;"	f
+ft_getend	libft/ft_strtrim.c	/^int	ft_getend(const char *s1, const char *set)$/;"	f
+ft_getend	libft/test/src/libft/ft_strtrim.c	/^int	ft_getend(const char *s1, const char *set)$/;"	f
+ft_getstart	libft/ft_strtrim.c	/^int	ft_getstart(const char *s1, const char *set)$/;"	f
+ft_getstart	libft/test/src/libft/ft_strtrim.c	/^int	ft_getstart(const char *s1, const char *set)$/;"	f
+ft_isalnum	libft/ft_isalnum.c	/^int	ft_isalnum(int c)$/;"	f
+ft_isalnum	libft/test/src/libft/ft_isalnum.c	/^int	ft_isalnum(int c)$/;"	f
+ft_isalnum_for_export	ft_export_3.c	/^int	ft_isalnum_for_export(int c)$/;"	f
+ft_isalnum_for_export	libft/test/src/ft_export_3.c	/^int	ft_isalnum_for_export(int c)$/;"	f
+ft_isalpha	libft/ft_isalpha.c	/^int	ft_isalpha(int c)$/;"	f
+ft_isalpha	libft/test/src/libft/ft_isalpha.c	/^int	ft_isalpha(int c)$/;"	f
+ft_isalpha_export	ft_export.c	/^int	ft_isalpha_export(int c)$/;"	f
+ft_isalpha_export	libft/test/src/ft_export.c	/^int	ft_isalpha_export(int c)$/;"	f
+ft_isascii	libft/ft_isascii.c	/^int	ft_isascii(int c)$/;"	f
+ft_isascii	libft/test/src/libft/ft_isascii.c	/^int	ft_isascii(int c)$/;"	f
+ft_isdigit	libft/ft_isdigit.c	/^int	ft_isdigit(int c)$/;"	f
+ft_isdigit	libft/test/src/libft/ft_isdigit.c	/^int	ft_isdigit(int c)$/;"	f
+ft_isprint	libft/ft_isprint.c	/^int	ft_isprint(int c)$/;"	f
+ft_isprint	libft/test/src/libft/ft_isprint.c	/^int	ft_isprint(int c)$/;"	f
+ft_itoa	libft/ft_itoa.c	/^char	*ft_itoa(int n)$/;"	f
+ft_itoa	libft/test/src/libft/ft_itoa.c	/^char	*ft_itoa(int n)$/;"	f
+ft_len	libft/ft_strjoin.c	/^size_t	ft_len(char const *s)$/;"	f
+ft_len	libft/test/src/libft/ft_strjoin.c	/^size_t	ft_len(char const *s)$/;"	f
+ft_memchr	libft/ft_memchr.c	/^void	*ft_memchr(const void *s, int c, size_t n)$/;"	f
+ft_memchr	libft/test/src/libft/ft_memchr.c	/^void	*ft_memchr(const void *s, int c, size_t n)$/;"	f
+ft_memcmp	libft/ft_memcmp.c	/^int	ft_memcmp(const void *s1, const void *s2, size_t n)$/;"	f
+ft_memcmp	libft/test/src/libft/ft_memcmp.c	/^int	ft_memcmp(const void *s1, const void *s2, size_t n)$/;"	f
+ft_memcpy	libft/ft_memcpy.c	/^void	*ft_memcpy(void *dest, const void *src, size_t n)$/;"	f
+ft_memcpy	libft/test/src/libft/ft_memcpy.c	/^void	*ft_memcpy(void *dest, const void *src, size_t n)$/;"	f
+ft_memmove	libft/ft_memmove.c	/^void	*ft_memmove(void *dst, const void *src, size_t len)$/;"	f
+ft_memmove	libft/test/src/libft/ft_memmove.c	/^void	*ft_memmove(void *dst, const void *src, size_t len)$/;"	f
+ft_memset	libft/ft_memset.c	/^void	*ft_memset(void *b, int c, size_t len)$/;"	f
+ft_memset	libft/test/src/libft/ft_memset.c	/^void	*ft_memset(void *b, int c, size_t len)$/;"	f
+ft_move_back	ft_cd.c	/^void	ft_move_back(t_lst **head, t_lst **tail, int pipe_cnt)$/;"	f
+ft_move_back	libft/test/src/ft_cd.c	/^void	ft_move_back(t_lst **head, t_lst **tail, int pipe_cnt)$/;"	f
+ft_move_home	ft_cd.c	/^void	ft_move_home(t_lst **head, t_lst **tail, int pipe_cnt)$/;"	f
+ft_move_home	libft/test/src/ft_cd.c	/^void	ft_move_home(t_lst **head, t_lst **tail, int pipe_cnt)$/;"	f
+ft_putchar_fd	libft/ft_putchar_fd.c	/^void	ft_putchar_fd(char c, int fd)$/;"	f
+ft_putchar_fd	libft/test/src/libft/ft_putchar_fd.c	/^void	ft_putchar_fd(char c, int fd)$/;"	f
+ft_putendl_fd	libft/ft_putendl_fd.c	/^void	ft_putendl_fd(char *s, int fd)$/;"	f
+ft_putendl_fd	libft/test/src/libft/ft_putendl_fd.c	/^void	ft_putendl_fd(char *s, int fd)$/;"	f
+ft_putnbr_fd	libft/ft_putnbr_fd.c	/^void	ft_putnbr_fd(int n, int fd)$/;"	f
+ft_putnbr_fd	libft/test/src/libft/ft_putnbr_fd.c	/^void	ft_putnbr_fd(int n, int fd)$/;"	f
+ft_putstr_fd	libft/ft_putstr_fd.c	/^void	ft_putstr_fd(char *s, int fd)$/;"	f
+ft_putstr_fd	libft/test/src/libft/ft_putstr_fd.c	/^void	ft_putstr_fd(char *s, int fd)$/;"	f
+ft_pwd	ft_pwd.c	/^void	ft_pwd(t_lst **head, t_lst **tail)$/;"	f
+ft_pwd	libft/test/src/ft_pwd.c	/^void	ft_pwd(t_lst **head, t_lst **tail)$/;"	f
+ft_qlen	libft/ft_substr.c	/^size_t	ft_qlen(char const *s)$/;"	f
+ft_qlen	libft/test/src/libft/ft_substr.c	/^size_t	ft_qlen(char const *s)$/;"	f
+ft_split	libft/ft_split.c	/^char	**ft_split(char const *s, char c)$/;"	f
+ft_split	libft/test/src/libft/ft_split.c	/^char	**ft_split(char const *s, char c)$/;"	f
+ft_strchr	libft/ft_strchr.c	/^char	*ft_strchr(const char *str, int c)$/;"	f
+ft_strchr	libft/test/src/libft/ft_strchr.c	/^char	*ft_strchr(const char *str, int c)$/;"	f
+ft_strchr_num	ft_export_2.c	/^int	ft_strchr_num(const char *str, int c)$/;"	f
+ft_strchr_num	libft/test/src/ft_export_2.c	/^int	ft_strchr_num(const char *str, int c)$/;"	f
+ft_strcmp	libft/test/src/utils1.c	/^int	ft_strcmp(const char *s1, const char *s2)$/;"	f
+ft_strcmp	utils1.c	/^int	ft_strcmp(const char *s1, const char *s2)$/;"	f
+ft_strdup	libft/ft_strdup.c	/^char	*ft_strdup(const char *s1)$/;"	f
+ft_strdup	libft/test/src/libft/ft_strdup.c	/^char	*ft_strdup(const char *s1)$/;"	f
+ft_striteri	libft/ft_striteri.c	/^void	ft_striteri(char *s, void (*f)(unsigned int, char *))$/;"	f
+ft_striteri	libft/test/src/libft/ft_striteri.c	/^void	ft_striteri(char *s, void (*f)(unsigned int, char *))$/;"	f
+ft_strjoin	libft/ft_strjoin.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f
+ft_strjoin	libft/test/src/libft/ft_strjoin.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f
+ft_strlcat	libft/ft_strlcat.c	/^size_t	ft_strlcat(char *dest, const char *src, size_t size)$/;"	f
+ft_strlcat	libft/test/src/libft/ft_strlcat.c	/^size_t	ft_strlcat(char *dest, const char *src, size_t size)$/;"	f
+ft_strlcpy	libft/ft_strlcpy.c	/^size_t	ft_strlcpy(char *dest, const char *src, size_t size)$/;"	f
+ft_strlcpy	libft/test/src/libft/ft_strlcpy.c	/^size_t	ft_strlcpy(char *dest, const char *src, size_t size)$/;"	f
+ft_strlen	libft/ft_strlen.c	/^size_t	ft_strlen(const char *s)$/;"	f
+ft_strlen	libft/test/src/libft/ft_strlen.c	/^size_t	ft_strlen(const char *s)$/;"	f
+ft_strmapi	libft/ft_strmapi.c	/^char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))$/;"	f
+ft_strmapi	libft/test/src/libft/ft_strmapi.c	/^char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))$/;"	f
+ft_strncmp	libft/ft_strncmp.c	/^int	ft_strncmp(const char *s1, const char *s2, size_t n)$/;"	f
+ft_strncmp	libft/test/src/libft/ft_strncmp.c	/^int	ft_strncmp(const char *s1, const char *s2, size_t n)$/;"	f
+ft_strndup	libft/ft_split.c	/^char	*ft_strndup(const char *s, size_t n)$/;"	f
+ft_strndup	libft/test/src/libft/ft_split.c	/^char	*ft_strndup(const char *s, size_t n)$/;"	f
+ft_strnstr	libft/ft_strnstr.c	/^char	*ft_strnstr(const char *big, const char *little, size_t len)$/;"	f
+ft_strnstr	libft/test/src/libft/ft_strnstr.c	/^char	*ft_strnstr(const char *big, const char *little, size_t len)$/;"	f
+ft_strrchr	libft/ft_strrchr.c	/^char	*ft_strrchr(const char *s, int c)$/;"	f
+ft_strrchr	libft/test/src/libft/ft_strrchr.c	/^char	*ft_strrchr(const char *s, int c)$/;"	f
+ft_strtrim	libft/ft_strtrim.c	/^char	*ft_strtrim(char const *s1, char const *set)$/;"	f
+ft_strtrim	libft/test/src/libft/ft_strtrim.c	/^char	*ft_strtrim(char const *s1, char const *set)$/;"	f
+ft_substr	libft/ft_substr.c	/^char	*ft_substr(char const *s, unsigned int start, size_t len)$/;"	f
+ft_substr	libft/test/src/libft/ft_substr.c	/^char	*ft_substr(char const *s, unsigned int start, size_t len)$/;"	f
+ft_tolower	libft/ft_tolower.c	/^int	ft_tolower(int c)$/;"	f
+ft_tolower	libft/test/src/libft/ft_tolower.c	/^int	ft_tolower(int c)$/;"	f
+ft_toupper	libft/ft_toupper.c	/^int	ft_toupper(int c)$/;"	f
+ft_toupper	libft/test/src/libft/ft_toupper.c	/^int	ft_toupper(int c)$/;"	f
+ft_unset	ft_unset.c	/^void	ft_unset(t_lst **head, t_lst **tail, char **cmdline, int pipe_cnt)$/;"	f
+ft_unset	libft/test/src/ft_unset.c	/^void	ft_unset(t_lst **head, t_lst **tail, char **cmdline, int pipe_cnt)$/;"	f
+ft_wordcount	libft/ft_split.c	/^size_t	ft_wordcount(char const *s, char c)$/;"	f
+ft_wordcount	libft/test/src/libft/ft_split.c	/^size_t	ft_wordcount(char const *s, char c)$/;"	f
+g_exit_code	execute.c	/^int	g_exit_code;$/;"	v
+g_exit_code	libft/test/src/execute.c	/^int	g_exit_code;$/;"	v
+get_file	libft/test/src/redirect_util.c	/^void	get_file(t_pipex *pipex, size_t i, size_t j, int f)$/;"	f
+get_file	redirect_util.c	/^void	get_file(t_pipex *pipex, size_t i, size_t j, int f)$/;"	f
+get_len	libft/ft_itoa.c	/^size_t	get_len(int n)$/;"	f
+get_len	libft/test/src/libft/ft_itoa.c	/^size_t	get_len(int n)$/;"	f
+get_next_line	get_next_line.c	/^char	*get_next_line(int fd)$/;"	f
+get_next_line	libft/test/src/get_next_line.c	/^char	*get_next_line(int fd)$/;"	f
+hand	execute.c	/^void	hand(int signum)$/;"	f
+hand	libft/test/src/execute.c	/^void	hand(int signum)$/;"	f
+handle_syntax_err	libft/test/src/redirect.c	/^void	handle_syntax_err(t_pipex *pipex)$/;"	f
+handle_syntax_err	redirect.c	/^void	handle_syntax_err(t_pipex *pipex)$/;"	f
+head	libft/test/header/minishell.h	/^	t_lst		*head;$/;"	m	struct:s_pipex
+here_doc	libft/test/src/redirect.c	/^void	here_doc(t_pipex *pipex, size_t i, size_t j, char *line)$/;"	f
+here_doc	redirect.c	/^void	here_doc(t_pipex *pipex, size_t i, size_t j, char *line)$/;"	f
+here_doc_cnt	libft/test/header/minishell.h	/^	size_t	here_doc_cnt;$/;"	m	struct:s_a
+here_doc_dollar	libft/test/src/pipex_util3.c	/^void	here_doc_dollar(char **lst, int i[])$/;"	f
+here_doc_dollar	pipex_util3.c	/^void	here_doc_dollar(char **lst, int i[])$/;"	f
+here_doc_util	libft/test/src/redirect.c	/^void	here_doc_util(t_pipex *pipex, pid_t pid)$/;"	f
+here_doc_util	redirect.c	/^void	here_doc_util(t_pipex *pipex, pid_t pid)$/;"	f
+here_doc_util_2	libft/test/src/redirect.c	/^void	here_doc_util_2(t_pipex *pipex, char *line)$/;"	f
+here_doc_util_2	redirect.c	/^void	here_doc_util_2(t_pipex *pipex, char *line)$/;"	f
+i	libft/test/header/minishell.h	/^	size_t		i;$/;"	m	struct:s_pipex
+infile	libft/test/header/minishell.h	/^	int		infile;$/;"	m	struct:s_file
+infile_err	libft/test/header/minishell.h	/^	int		infile_err;$/;"	m	struct:s_file
+init_ep	libft/test/src/main.c	/^void	init_ep(t_pipex *pipex, t_lst **head)$/;"	f
+init_ep	main.c	/^void	init_ep(t_pipex *pipex, t_lst **head)$/;"	f
+init_is_cmd	execute_util1.c	/^void	init_is_cmd(t_pipex *p)$/;"	f
+init_is_cmd	libft/test/src/execute_util1.c	/^void	init_is_cmd(t_pipex *p)$/;"	f
+init_is_cmd_util	execute_util1.c	/^void	init_is_cmd_util(t_pipex *p, int i)$/;"	f
+init_is_cmd_util	libft/test/src/execute_util1.c	/^void	init_is_cmd_util(t_pipex *p, int i)$/;"	f
+init_num_arr	libft/test/src/pipex_util3.c	/^void	init_num_arr(int i[])$/;"	f
+init_num_arr	pipex_util3.c	/^void	init_num_arr(int i[])$/;"	f
+init_pipe_cnt	libft/test/src/pipe_utils.c	/^void	init_pipe_cnt(t_pipex *pipex, char *line)$/;"	f
+init_pipe_cnt	pipe_utils.c	/^void	init_pipe_cnt(t_pipex *pipex, char *line)$/;"	f
+init_shell	libft/test/src/pipex_util1.c	/^void	init_shell(t_pipex *pipex)$/;"	f
+init_shell	pipex_util1.c	/^void	init_shell(t_pipex *pipex)$/;"	f
+is_builtin	libft/test/src/utils1.c	/^int	is_builtin(t_pipex *p)$/;"	f
+is_builtin	utils1.c	/^int	is_builtin(t_pipex *p)$/;"	f
+is_cmd	libft/test/header/minishell.h	/^	int			*is_cmd;$/;"	m	struct:s_pipex
+is_int	libft/test/src/pipex_util4.c	/^int	is_int(char *str)$/;"	f
+is_int	pipex_util4.c	/^int	is_int(char *str)$/;"	f
+is_space	check_syntax.c	/^void	is_space(t_pipex *p, char *line)$/;"	f
+is_space	libft/test/src/check_syntax.c	/^void	is_space(t_pipex *p, char *line)$/;"	f
+j	libft/test/header/minishell.h	/^	size_t		j;$/;"	m	struct:s_pipex
+jasik_sig	libft/test/src/redirect_util.c	/^void	jasik_sig(int sig)$/;"	f
+jasik_sig	redirect_util.c	/^void	jasik_sig(int sig)$/;"	f
+k	libft/test/header/minishell.h	/^	size_t		k;$/;"	m	struct:s_pipex
+last_execve_cmd	libft/test/header/minishell.h	/^	int			last_execve_cmd;$/;"	m	struct:s_pipex
+limit_quote	libft/test/header/minishell.h	/^	size_t	**limit_quote;$/;"	m	struct:s_a
+line	libft/test/header/minishell.h	/^	char		*line;$/;"	m	struct:s_pipex
+lst_insert_orm	libft/test/src/main.c	/^void	lst_insert_orm(t_lst **head, t_lst **tail, char *envp)$/;"	f
+lst_insert_orm	main.c	/^void	lst_insert_orm(t_lst **head, t_lst **tail, char *envp)$/;"	f
+main	libft/test/src/main.c	/^int	main(int ac, char **av, char **envp)$/;"	f
+main	main.c	/^int	main(int ac, char **av, char **envp)$/;"	f
+make_backup	get_next_line.c	/^char	*make_backup(char *line)$/;"	f
+make_backup	libft/test/src/get_next_line.c	/^char	*make_backup(char *line)$/;"	f
+make_line	get_next_line.c	/^char	*make_line(int fd, char *backup, char *buf, int n)$/;"	f
+make_line	libft/test/src/get_next_line.c	/^char	*make_line(int fd, char *backup, char *buf, int n)$/;"	f
+memsetft	libft/ft_calloc.c	/^void	*memsetft(void *dest, int value, size_t count)$/;"	f
+memsetft	libft/test/src/libft/ft_calloc.c	/^void	*memsetft(void *dest, int value, size_t count)$/;"	f
+move_back_and_set_pwd	ft_cd_2.c	/^void	move_back_and_set_pwd(t_lst **head, t_lst **tail, int pipe_cnt)$/;"	f
+move_back_and_set_pwd	libft/test/src/ft_cd_2.c	/^void	move_back_and_set_pwd(t_lst **head, t_lst **tail, int pipe_cnt)$/;"	f
+move_home_and_set_pwd	ft_cd_2.c	/^void	move_home_and_set_pwd(t_lst **head, t_lst **tail, int pipe_cnt)$/;"	f
+move_home_and_set_pwd	libft/test/src/ft_cd_2.c	/^void	move_home_and_set_pwd(t_lst **head, t_lst **tail, int pipe_cnt)$/;"	f
+next	libft/libft.h	/^	struct s_list	*next;$/;"	m	struct:s_list	typeref:struct:s_list::s_list
+next	libft/test/header/minishell.h	/^	struct s_lst	*next;$/;"	m	struct:s_lst	typeref:struct:s_lst::s_lst
+next	libft/test/src/libft/libft.h	/^	struct s_list	*next;$/;"	m	struct:s_list	typeref:struct:s_list::s_list
+node_free	libft/test/src/pipex_util4.c	/^void	node_free(t_lst *node)$/;"	f
+node_free	pipex_util4.c	/^void	node_free(t_lst *node)$/;"	f
+occur_syntax_err	check_syntax.c	/^void	occur_syntax_err(t_pipex *pipex, size_t i, size_t j, char *err_file)$/;"	f
+occur_syntax_err	libft/test/src/check_syntax.c	/^void	occur_syntax_err(t_pipex *pipex, size_t i, size_t j, char *err_file)$/;"	f
+opt_cnt	libft/test/header/minishell.h	/^	size_t	opt_cnt;$/;"	m	struct:s_a
+outfile	libft/test/header/minishell.h	/^	int		outfile;$/;"	m	struct:s_file
+parent_builtin	libft/test/src/utils1.c	/^void	parent_builtin(t_pipex *p, t_lst **head, t_lst **tail, char **cmdline)$/;"	f
+parent_builtin	utils1.c	/^void	parent_builtin(t_pipex *p, t_lst **head, t_lst **tail, char **cmdline)$/;"	f
+pass_quote	check_syntax.c	/^void	pass_quote(t_pipex *pipex, char *line, size_t *i, char c)$/;"	f
+pass_quote	libft/test/src/check_syntax.c	/^void	pass_quote(t_pipex *pipex, char *line, size_t *i, char c)$/;"	f
+pass_quote1	check_syntax.c	/^void	pass_quote1(char *line, size_t *i, char c)$/;"	f
+pass_quote1	libft/test/src/check_syntax.c	/^void	pass_quote1(char *line, size_t *i, char c)$/;"	f
+pass_redirect	execute_util1.c	/^void	pass_redirect(char *line, size_t *i, size_t *ret)$/;"	f
+pass_redirect	libft/test/src/execute_util1.c	/^void	pass_redirect(char *line, size_t *i, size_t *ret)$/;"	f
+path	libft/test/header/minishell.h	/^	char		**path;$/;"	m	struct:s_pipex
+pid	libft/test/header/minishell.h	/^	pid_t		*pid;$/;"	m	struct:s_pipex
+pipe_cnt	libft/test/header/minishell.h	/^	size_t		pipe_cnt;$/;"	m	struct:s_pipex
+pipe_split	cmd_utils1.c	/^char	*pipe_split(t_pipex *pipex, char *line, size_t *i)$/;"	f
+pipe_split	libft/test/src/cmd_utils1.c	/^char	*pipe_split(t_pipex *pipex, char *line, size_t *i)$/;"	f
+prev	libft/test/header/minishell.h	/^	struct s_lst	*prev;$/;"	m	struct:s_lst	typeref:struct:s_lst::s_lst
+print_echo	ft_echo_2.c	/^void	print_echo(char **cmdline, int j, int n)$/;"	f
+print_echo	libft/test/src/ft_echo_2.c	/^void	print_echo(char **cmdline, int j, int n)$/;"	f
+print_env	ft_env.c	/^void	print_env(t_lst *head, t_lst *tail)$/;"	f
+print_env	libft/test/src/ft_env.c	/^void	print_env(t_lst *head, t_lst *tail)$/;"	f
+print_err	execute_util.c	/^void	print_err(t_pipex *p, char *cmd, char *msg)$/;"	f
+print_err	libft/test/src/execute_util.c	/^void	print_err(t_pipex *p, char *cmd, char *msg)$/;"	f
+print_err_file	libft/test/src/redirect_util.c	/^void	print_err_file(t_pipex *p)$/;"	f
+print_err_file	redirect_util.c	/^void	print_err_file(t_pipex *p)$/;"	f
+print_error_export	ft_export.c	/^void	print_error_export(char **str, int pipe_cnt)$/;"	f
+print_error_export	libft/test/src/ft_export.c	/^void	print_error_export(char **str, int pipe_cnt)$/;"	f
+print_export_orm	ft_export_2.c	/^void	print_export_orm(t_lst **head, t_lst **tail)$/;"	f
+print_export_orm	libft/test/src/ft_export_2.c	/^void	print_export_orm(t_lst **head, t_lst **tail)$/;"	f
+print_export_orm_without_quote	ft_export_2.c	/^void	print_export_orm_without_quote(t_lst **head, t_lst **tail)$/;"	f
+print_export_orm_without_quote	libft/test/src/ft_export_2.c	/^void	print_export_orm_without_quote(t_lst **head, t_lst **tail)$/;"	f
+print_syntax_err	libft/test/src/utils.c	/^void	print_syntax_err(t_pipex *pipex)$/;"	f
+print_syntax_err	utils.c	/^void	print_syntax_err(t_pipex *pipex)$/;"	f
+priority_redirect	execute_util.c	/^void	priority_redirect(t_pipex *p)$/;"	f
+priority_redirect	libft/test/src/execute_util.c	/^void	priority_redirect(t_pipex *p)$/;"	f
+quote_flag	libft/test/header/minishell.h	/^	size_t	quote_flag;$/;"	m	struct:s_a
+quote_pass_util	cmd_utils1.c	/^void	quote_pass_util(t_pipex *pipex, char *line, size_t *i, size_t *ret)$/;"	f
+quote_pass_util	libft/test/src/cmd_utils1.c	/^void	quote_pass_util(t_pipex *pipex, char *line, size_t *i, size_t *ret)$/;"	f
+quote_pass_util1	cmd_utils1.c	/^void	quote_pass_util1(t_pipex *pipex, char *line, size_t *i, size_t *ret)$/;"	f
+quote_pass_util1	libft/test/src/cmd_utils1.c	/^void	quote_pass_util1(t_pipex *pipex, char *line, size_t *i, size_t *ret)$/;"	f
+quote_trim	libft/test/src/utils1.c	/^char	*quote_trim(t_pipex *p, char *line, size_t *i, char *a)$/;"	f
+quote_trim	utils1.c	/^char	*quote_trim(t_pipex *p, char *line, size_t *i, char *a)$/;"	f
+real_move	ft_cd.c	/^void	real_move(t_lst **head, t_lst **tail, char **cmdline, int pipe_cnt)$/;"	f
+real_move	libft/test/src/ft_cd.c	/^void	real_move(t_lst **head, t_lst **tail, char **cmdline, int pipe_cnt)$/;"	f
+redirect	cmd_utils.c	/^char	*redirect(t_pipex *pipex, char *line, size_t *i)$/;"	f
+redirect	libft/test/header/minishell.h	/^	char	***redirect;$/;"	m	struct:s_a
+redirect	libft/test/header/minishell.h	/^	t_redirect	*redirect;$/;"	m	struct:s_pipex
+redirect	libft/test/src/cmd_utils.c	/^char	*redirect(t_pipex *pipex, char *line, size_t *i)$/;"	f
+redirect_cnt	cmd_utils2.c	/^size_t	redirect_cnt(t_pipex *pipex, char *line)$/;"	f
+redirect_cnt	libft/test/header/minishell.h	/^	size_t	redirect_cnt;$/;"	m	struct:s_a
+redirect_cnt	libft/test/src/cmd_utils2.c	/^size_t	redirect_cnt(t_pipex *pipex, char *line)$/;"	f
+redirect_flag_init	libft/test/src/main.c	/^void	redirect_flag_init(t_pipex *pipex)$/;"	f
+redirect_flag_init	main.c	/^void	redirect_flag_init(t_pipex *pipex)$/;"	f
+redirect_split	cmd_utils.c	/^char	**redirect_split(t_pipex *p, char *line, size_t j, char **ret)$/;"	f
+redirect_split	libft/test/src/cmd_utils.c	/^char	**redirect_split(t_pipex *p, char *line, size_t j, char **ret)$/;"	f
+remove_slash	ft_env.c	/^char	*remove_slash(char *str)$/;"	f
+remove_slash	libft/test/src/ft_env.c	/^char	*remove_slash(char *str)$/;"	f
+s_a	libft/test/header/minishell.h	/^typedef struct s_a$/;"	s
+s_b	libft/test/header/minishell.h	/^typedef struct s_b$/;"	s
+s_file	libft/test/header/minishell.h	/^typedef struct s_file$/;"	s
+s_list	libft/libft.h	/^typedef struct s_list$/;"	s
+s_list	libft/test/src/libft/libft.h	/^typedef struct s_list$/;"	s
+s_lst	libft/test/header/minishell.h	/^typedef struct s_lst$/;"	s
+s_pipex	libft/test/header/minishell.h	/^typedef struct s_pipex$/;"	s
+set_num_arr	libft/test/src/pipex_util3.c	/^void	set_num_arr(int i[])$/;"	f
+set_num_arr	pipex_util3.c	/^void	set_num_arr(int i[])$/;"	f
+set_oldpwd_pwd	ft_cd.c	/^void	set_oldpwd_pwd(t_lst **head, t_lst **tail)$/;"	f
+set_oldpwd_pwd	libft/test/src/ft_cd.c	/^void	set_oldpwd_pwd(t_lst **head, t_lst **tail)$/;"	f
+signal_cmd	libft/test/src/main.c	/^void	signal_cmd(int sig)$/;"	f
+signal_cmd	main.c	/^void	signal_cmd(int sig)$/;"	f
+start_shell	libft/test/src/pipex.c	/^void	start_shell(t_pipex *pipex, t_lst **head, t_lst **tail, char *tmp)$/;"	f
+start_shell	pipex.c	/^void	start_shell(t_pipex *pipex, t_lst **head, t_lst **tail, char *tmp)$/;"	f
+start_shell_util	libft/test/src/pipex.c	/^void	start_shell_util(t_pipex *pipex, t_lst **head, t_lst **tail, char *tmp)$/;"	f
+start_shell_util	pipex.c	/^void	start_shell_util(t_pipex *pipex, t_lst **head, t_lst **tail, char *tmp)$/;"	f
+sub_dup2	execute_util.c	/^void	sub_dup2(t_pipex *p)$/;"	f
+sub_dup2	libft/test/src/execute_util.c	/^void	sub_dup2(t_pipex *p)$/;"	f
+syntax	libft/test/header/minishell.h	/^	t_syntax	*syntax;$/;"	m	struct:s_pipex
+syntax_err_continue	libft/test/src/utils.c	/^void	syntax_err_continue(t_pipex *pipex, int f)$/;"	f
+syntax_err_continue	utils.c	/^void	syntax_err_continue(t_pipex *pipex, int f)$/;"	f
+syntax_err_index	libft/test/header/minishell.h	/^	int		syntax_err_index;$/;"	m	struct:s_b
+t_cmd	libft/test/header/minishell.h	/^}	t_cmd;$/;"	t	typeref:struct:s_a
+t_list	libft/libft.h	/^}				t_list;$/;"	t	typeref:struct:s_list
+t_list	libft/test/src/libft/libft.h	/^}				t_list;$/;"	t	typeref:struct:s_list
+t_lst	libft/test/header/minishell.h	/^}		t_lst;$/;"	t	typeref:struct:s_lst
+t_pipex	libft/test/header/minishell.h	/^}	t_pipex;$/;"	t	typeref:struct:s_pipex
+t_redirect	libft/test/header/minishell.h	/^}	t_redirect;$/;"	t	typeref:struct:s_file
+t_syntax	libft/test/header/minishell.h	/^}	t_syntax;$/;"	t	typeref:struct:s_b
+tail	libft/test/header/minishell.h	/^	t_lst		*tail;$/;"	m	struct:s_pipex
+temp	libft/test/header/minishell.h	/^	int			temp;$/;"	m	struct:s_pipex
+three_pointer_free	libft/test/src/utils.c	/^void	three_pointer_free(char ***str)$/;"	f
+three_pointer_free	utils.c	/^void	three_pointer_free(char ***str)$/;"	f
+tmp	libft/test/header/minishell.h	/^	int			tmp;$/;"	m	struct:s_pipex
+twenty_five	ft_export.c	/^void	twenty_five(t_lst **head, t_lst **tail, char *cmdline_i, int i[])$/;"	f
+twenty_five	libft/test/src/ft_export.c	/^void	twenty_five(t_lst **head, t_lst **tail, char *cmdline_i, int i[])$/;"	f
+two_pointer_free	libft/test/src/utils.c	/^void	two_pointer_free(char **str)$/;"	f
+two_pointer_free	utils.c	/^void	two_pointer_free(char **str)$/;"	f
+wait_child	execute_util1.c	/^void	wait_child(t_pipex *p, pid_t pid)$/;"	f
+wait_child	libft/test/src/execute_util1.c	/^void	wait_child(t_pipex *p, pid_t pid)$/;"	f
+wave_add	ft_cd_2.c	/^char	*wave_add(t_lst **head, t_lst **tail)$/;"	f
+wave_add	libft/test/src/ft_cd_2.c	/^char	*wave_add(t_lst **head, t_lst **tail)$/;"	f
