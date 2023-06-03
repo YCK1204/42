@@ -6,7 +6,7 @@
 /*   By: yeckim <yeckim@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/09 17:36:52 by wonljeon          #+#    #+#             */
-/*   Updated: 2023/04/10 18:52:25 by yeckim           ###   ########.fr       */
+/*   Updated: 2023/06/03 14:58:05 by yeckim           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,6 @@ void	signal_cmd(int sig)
 		g_exit_code = 1;
 		printf("\n");
 		rl_on_new_line();
-		rl_replace_line("", 0);
 		rl_redisplay();
 	}
 }

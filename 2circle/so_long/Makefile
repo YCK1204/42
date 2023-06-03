@@ -7,8 +7,7 @@ OBJS = $(SRCS:.c=.o)
 SRCS_BONUS = $(wildcard ./bonus/*.c)
 OBJS_BONUS = $(SRCS_BONUS:.c=.o)
 OBJS_HEADER_BONUS = bonus_header/
-#MLX_FLAGS = -I /usr/local/include/ -L /usr/local/lib/ -lmlx -framework OpenGL -framework AppKit
-MLX_FLAGS = -I -Lmlx -lmlx -framework OpenGL -framework AppKit -Imlx
+MLX_FLAGS = -L./mlx -lmlx -framework OpenGL -framework AppKit
 
 ifdef BONUS
 	OBJ = $(OBJS_BONUS)

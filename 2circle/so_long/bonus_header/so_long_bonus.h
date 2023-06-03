@@ -6,7 +6,7 @@
 /*   By: yeckim <yeckim@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 22:27:24 by yeckim            #+#    #+#             */
-/*   Updated: 2022/12/24 02:17:20 by yeckim           ###   ########.fr       */
+/*   Updated: 2023/06/04 02:31:59 by yeckim           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,11 @@
 # define BUFFER_SIZE 5
 # define INF 2147483647
 # include <unistd.h>
-# include <mlx.h>
 # include <stdlib.h>
 # include <stdio.h>
 # include <fcntl.h>
 # include <time.h>
+# include "../mlx/mlx.h"
 
 typedef struct s_a
 {

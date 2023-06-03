@@ -6,7 +6,7 @@
 /*   By: yeckim <yeckim@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 22:27:24 by yeckim            #+#    #+#             */
-/*   Updated: 2022/12/25 17:14:43 by yeckim           ###   ########.fr       */
+/*   Updated: 2023/06/04 02:31:43 by yeckim           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,10 @@
 # define KEY_ESC 53
 # define BUFFER_SIZE 10
 # include <unistd.h>
-# include <mlx.h>
 # include <stdlib.h>
 # include <stdio.h>
 # include <fcntl.h>
+# include "../mlx/mlx.h"
 
 typedef struct s_imgs
 {
