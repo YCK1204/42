@@ -17,7 +17,7 @@ SpellBook::~SpellBook()
 	for (std::vector<std::pair<std::string, ASpell *> >::iterator it = this->arr.begin(); it != this->arr.end(); it++)
 		delete it->second;
 }
-void	SpellBook::learnSpell(ASpell *a) { this->arr.push_back(std::make_pair(a->getName(), a)); }
+void	SpellBook::learnSpell(ASpell *a) { this->arr.push_back(std::make_pair(a->getName(), a->clone()); }
 void	SpellBook::forgetSpell(std::string const &str)
 {
 	for (std::vector<std::pair<std::string, ASpell *> >::iterator it = this->arr.begin(); it != this->arr.end();)
