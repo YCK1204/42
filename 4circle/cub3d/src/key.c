@@ -15,40 +15,40 @@
 void	key_up(t_info *info)
 {
 	if (info->map[(int)(info->player_y + info->dir_y * \
-				MOVE_SPD)][(int)info->player_x] != '1')
+				MOVE_SPD * 2)][(int)info->player_x] != '1')
 		info->player_y += info->dir_y * MOVE_SPD;
 	if (info->map[(int)info->player_y][(int)(info->player_x \
-				+ info->dir_x * MOVE_SPD)] != '1')
+				+ info->dir_x * MOVE_SPD * 2)] != '1')
 		info->player_x += info->dir_x * MOVE_SPD;
 }
 
 void	key_down(t_info *info)
 {
 	if (info->map[(int)(info->player_y - info->dir_y \
-				* MOVE_SPD)][(int)info->player_x] != '1')
+				* MOVE_SPD * 2)][(int)info->player_x] != '1')
 		info->player_y -= info->dir_y * MOVE_SPD;
 	if (info->map[(int)info->player_y][(int)(info->player_x \
-				- info->dir_x * MOVE_SPD)] != '1')
+				- info->dir_x * MOVE_SPD * 2)] != '1')
 		info->player_x -= info->dir_x * MOVE_SPD;
 }
 
 void	key_left(t_info *info)
 {
 	if (info->map[(int)(info->player_y - info->plane_y \
-				* MOVE_SPD)][(int)info->player_x] != '1')
+				* MOVE_SPD * 2)][(int)info->player_x] != '1')
 		info->player_y -= info->plane_y * MOVE_SPD;
 	if (info->map[(int)info->player_y][(int)(info->player_x \
-				- info->plane_x * MOVE_SPD)] != '1')
+				- info->plane_x * MOVE_SPD * 2)] != '1')
 		info->player_x -= info->plane_x * MOVE_SPD;
 }
 
 void	key_right(t_info *info)
 {
 	if (info->map[(int)(info->player_y + info->plane_y \
-				* MOVE_SPD)][(int)info->player_x] != '1')
+				* MOVE_SPD * 2)][(int)info->player_x] != '1')
 		info->player_y += info->plane_y * MOVE_SPD;
 	if (info->map[(int)info->player_y][(int)(info->player_x \
-				+ info->plane_x * MOVE_SPD)] != '1')
+				+ info->plane_x * MOVE_SPD * 2)] != '1')
 		info->player_x += info->plane_x * MOVE_SPD;
 }
 
