@@ -217,7 +217,7 @@ std::pair<std::string, std::string> Http::getResponse(int clnt_sock)
 		if (!clients[clnt_sock].method.compare("POST")) {
 			ret = getPostReseponse(clnt_sock);
 		} else if (!clients[clnt_sock].method.compare("DELETE")) {
-			ret.second = SignOut(clients[clnt_sock].body_request, , clnt_sock);
+			ret.second = SignOut(clients[clnt_sock].body_request, clnt_sock);
 			ret.first = getMsg(clnt_sock, ret.second.length());
 		} else {
 			ret.second = getContent(clnt_sock);
