@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="signout-button">탈퇴하기</button>
+    <script>
+        document.getElementById("signout-button").addEventListener("click", () => {
+            var xhr = new XMLHttpRequest();
+            xhr.open("DELETE", '/sign_out', true);
+            xhr.onload = () => {
+                console.log(xhr.responseText);
+                if (!(xhr.readyState == 4 && xhr.status == "200")) {
+                    console.error("ERROR!");
+                    alert("ERROR");
+                } else {
+                    location.href = "/";
+                }
+            }
+            xhr.send(null);
+        });
+    </script>
+</body>
+</html>

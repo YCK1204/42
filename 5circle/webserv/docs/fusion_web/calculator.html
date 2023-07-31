@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>cgi1-calculator</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+        td {
+            padding: 25px 40px;
+            text-align: center;
+        }
+        input {
+            text-align: right;
+            border: none;
+        }
+        input:focus {
+            outline: none;
+        }
+        ._text {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" enctype="multipart/form-data">
+        <input type="hidden" name="_method" value="cgi-calculator">
+        <table border="1">
+            <tr>
+                <td colspan="4">
+                    <input type="text" class="_text" id="display" name="display" readonly>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input type="text" class="_text" id="result" name="result" readonly>
+                </td>
+            </tr>
+            <div class="_input">
+                <tr>
+                    <td colspan="3" onclick="reset()">AC</td>
+                    <td onclick="add('/')">/</td>
+                </tr>
+                <tr>
+                    <td onclick="add(7)">7</td>
+                    <td onclick="add(8)">8</td>
+                    <td onclick="add(9)">9</td>
+                    <td onclick="add('*')">*</td>
+                </tr>
+                <tr>
+                    <td onclick="add(4)">4</td>
+                    <td onclick="add(5)">5</td>
+                    <td onclick="add(6)">6</td>
+                    <td onclick="add('-')">-</td>
+                </tr>
+                <tr>
+                    <td onclick="add(1)">1</td>
+                    <td onclick="add(2)">2</td>
+                    <td onclick="add(3)">3</td>
+                    <td onclick="add('+')">+</td>
+                </tr>
+                <tr>
+                    <td colspan="2" onclick="add(0)">0</td>
+                    <td onclick="add('.')">.</td>
+                    <td colspan="1">
+                        <input type="submit"value="=" id="submit">
+                    </td>
+                </tr>
+            </div>
+        </table>
+    </form>
+    <script>
+        function add(char) {
+            var display = document.getElementById('display');
+            var submit = document.getElementById('submit');
+            var displayValue = display.value;
+            var lastChar = displayValue[displayValue.length - 1];
+
+
+            if (char == '.' && lastChar == '.' || isOperator(lastChar) && char == '.' || lastChar == '.' && isOperator(char))
+                return ;
+            if (isOperator(char) || char == '.') {
+                btnDisabled();
+            } else {
+                btnActive();
+            }
+            if (isOperator(char) && isOperator(lastChar)) {
+                display.value = display.value.substr(0, display.value.length - 1) + char;
+            } else {
+                display.value = displayValue + char;
+            }
+        }
+        function reset() {
+            document.getElementById('display').value = "";
+            document.getElementById('result').value = "";
+        }
+        function btnActive()  {
+            const target = document.getElementById('submit');
+            target.disabled = false;
+        }
+        
+        function btnDisabled()  {
+            const target = document.getElementById('submit');
+            target.disabled = true;
+        }
+
+        function isOperator(char) {
+            return (char == '-' || char == '+' || char == '*' || char == '/');
+        }
+    </script>
+</body>
+</html>
