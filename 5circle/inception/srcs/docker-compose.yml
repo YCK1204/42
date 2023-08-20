@@ -1,0 +1,68 @@
+version : "2.19.1"
+
+services:
+    mariadb:
+        image: ft_db
+        restart: always
+        container_name: mariadb
+        networks:
+            - Inception
+        build:
+            context: ./maria-db/
+            dockerfile: Dockerfile
+        tty: true
+        volumes:
+            - wp-mysql:$MARIADB_PATH
+        env_file:
+            - .env
+    wordpress:
+        image: ft_wordpress
+        restart: always
+        container_name: wordpress
+        networks:
+            - Inception
+        build:
+            context: ./wordpress/
+            dockerfile: Dockerfile
+        tty: true
+        volumes:
+            - wp-volume:$WORDPRESS_PATH
+        depends_on:
+            - mariadb
+        env_file:
+            - .env
+    nignx:
+        image: ft_nginx
+        restart: always
+        container_name: nginx
+        networks:
+            - Inception
+        build:
+            context: ./nginx/
+            dockerfile: Dockerfile
+        ports:
+            - 443:443
+        tty: true
+        volumes:
+            - wp-volume:$WORDPRESS_PATH
+        depends_on:
+            - wordpress
+        env_file:
+            - .env
+networks:
+    Inception:
+        driver: bridge
+
+volumes:
+    wp-volume:
+        driver: local    
+        driver_opts:
+            o: bind
+            type: none
+            device: /Users/yeckim/inception/b
+    wp-mysql:
+        driver: local
+        driver_opts:
+            o: bind
+            type: none
+            device: /Users/yeckim/inception/a
