@@ -59,10 +59,10 @@ volumes:
         driver_opts:
             o: bind
             type: none
-            device: /Users/yeckim/inception/b
+            device: /home/login/data/wp-data/
     wp-mysql:
         driver: local
         driver_opts:
             o: bind
             type: none
-            device: /Users/yeckim/inception/a
+            device: /home/login/data/db-data/

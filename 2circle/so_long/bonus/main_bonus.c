@@ -6,7 +6,7 @@
 /*   By: yeckim <yeckim@student.42seoul.kr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/19 18:40:15 by yeckim            #+#    #+#             */
-/*   Updated: 2023/06/04 02:35:05 by yeckim           ###   ########.fr       */
+/*   Updated: 2023/08/21 01:11:51 by yeckim           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ int	init_time(t_game_info *game)
 	game->play_time = (double)clock() / CLOCKS_PER_SEC;
 	if (game->play_time > game->time)
 	{
-		game->time += 0.06;
+		game->time += 0.05;
 		bfs(game);
 	}
 	drawing_map(game->graphic.mlx, game->graphic.mlx_win, &game->imgs, game);
