@@ -2,7 +2,6 @@ version : "2.19.1"
 
 services:
     mariadb:
-        image: ft_db
         restart: always
         container_name: mariadb
         networks:
@@ -12,11 +11,10 @@ services:
             dockerfile: Dockerfile
         tty: true
         volumes:
-            - wp-mysql:$MARIADB_PATH
+            - wp-mysql:/var/lib/mysql
         env_file:
             - .env
     wordpress:
-        image: ft_wordpress
         restart: always
         container_name: wordpress
         networks:
@@ -26,13 +24,12 @@ services:
             dockerfile: Dockerfile
         tty: true
         volumes:
-            - wp-volume:$WORDPRESS_PATH
+            - wp-volume:/var/www/html/
         depends_on:
             - mariadb
         env_file:
             - .env
     nignx:
-        image: ft_nginx
         restart: always
         container_name: nginx
         networks:
@@ -44,7 +41,7 @@ services:
             - 443:443
         tty: true
         volumes:
-            - wp-volume:$WORDPRESS_PATH
+            - wp-volume:/var/www/html/
         depends_on:
             - wordpress
         env_file:

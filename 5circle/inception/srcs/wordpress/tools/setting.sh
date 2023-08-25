@@ -12,10 +12,15 @@ wp core install \
     --admin_email=$ADMIN_USER_EMAIL \
     --allow-root
 wp user create \
-	$GUEST_USER_NAME $GUEST_USER_EMAIL \
-    --role=editor \
-    --user_pass=$GUEST_USER_PASSWORD \
+	$FIRST_USER_NAME $FIRST_USER_EMAIL \
+    --role=Administrator \
+    --user_pass=$FIRST_USER_PASSWORD \
     --path=$WORDPRESS_PATH \
     --allow-root
-
+wp user create \
+	$SECOND_USER_NAME $SECOND_USER_EMAIL \
+    --role=editor \
+    --user_pass=$SECOND_USER_PASSWORD \
+    --path=$WORDPRESS_PATH \
+    --allow-root
 php-fpm7.4 -F
